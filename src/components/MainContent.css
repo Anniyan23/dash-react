@@ -1,0 +1,21 @@
+.main-content {
+  margin-top: 20px;
+  color: rgb(63, 78, 94);
+  padding-left: 20px; /* Adjust according to sidebar width */
+  padding-right: 20px;
+  box-sizing: border-box;
+  transition: padding 0.3s ease;
+}
+
+.profiles {
+  display: grid;
+  grid-template-columns: no-repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

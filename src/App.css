@@ -1,0 +1,16 @@
+.App {
+  display: flex;
+}
+
+.main-content {
+  margin-left: 2px; /* Match the sidebar width */
+  width: calc(100% - 100px); /* Adjust width according to sidebar */
+}
+
+.header, .subheader, .filter {
+  width: 100%;
+}
+
+.main-content > div {
+  margin-top: 20px; /* Add some spacing between header, subheader, filter, and main content */
+}
