@@ -6,65 +6,162 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+Elevayt Candidate Dashboard
+Welcome to the Elevayt Candidate Dashboard! This dashboard helps you manage and track candidates effectively with a user-friendly interface built using React.js.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Project Structure
+Here's a quick peek at how our project is organized:
+dash-app/
+├── build/
+├── node_modules/
+├── public/
+├── src/
+│   ├── assets/
+│   │   └── (images and other assets)
+│   ├── components/
+│   │   ├── CandProfile/
+│   │   │   ├── CandidateDetails.js
+│   │   │   ├── Experience.js
+│   │   │   ├── ProfileImage.js
+│   │   │   ├── Skills.js
+│   │   │   └── CandidateProfile.js
+│   │   ├── Filter.js
+│   │   ├── Filter.css
+│   │   ├── Header.js
+│   │   ├── SubHeader.js
+│   │   ├── Sidebar.js
+│   │   └── MainContent.js
+│   ├── data/
+│   │   └── data.js
+│   ├── App.js
+│   └── index.js
+├── .gitignore
+├── package-lock.json
+├── package.json
+└── README.md
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Sure, I can help you create a fun and detailed README file for your React dashboard project. Based on the details you've provided, here's a draft of the README:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Elevayt Candidate Dashboard
+Welcome to the Elevayt Candidate Dashboard! This dashboard helps you manage and track candidates effectively with a user-friendly interface built using React.js.
 
-### `npm run build`
+📁 Project Structure
+Here's a quick peek at how our project is organized:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+kotlin
+Copy code
+dash-app/
+├── build/
+├── node_modules/
+├── public/
+├── src/
+│   ├── assets/
+│   │   └── (images and other assets)
+│   ├── components/
+│   │   ├── CandProfile/
+│   │   │   ├── CandidateDetails.js
+│   │   │   ├── Experience.js
+│   │   │   ├── ProfileImage.js
+│   │   │   ├── Skills.js
+│   │   │   └── CandidateProfile.js
+│   │   ├── Filter.js
+│   │   ├── Filter.css
+│   │   ├── Header.js
+│   │   ├── SubHeader.js
+│   │   ├── Sidebar.js
+│   │   └── MainContent.js
+│   ├── data/
+│   │   └── data.js
+│   ├── App.js
+│   └── index.js
+├── .gitignore
+├── package-lock.json
+├── package.json
+└── README.md
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📂 Assets Folder
+Location: src/assets/
+Contents: All necessary images and assets used in the project.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📂 Components Folder
+Location: src/components/
+Contents: Contains all the parent and child components.
+CandProfile Folder
+Location: src/components/CandProfile/
+Components:
+CandidateDetails.js: Contains detailed information about candidates.
+Experience.js: Displays the work experience of candidates.
+ProfileImage.js: Displays the candidate's profile image.
+Skills.js: Lists the candidate's skills.
+CandidateProfile.js: Combines all the above components into a single profile view.
+Other Components
+Filter.js: Contains a filter section to filter candidate profiles based on their details.
+Filter.css: Styles the filter section.
+Header.js: Contains the header section with a heading and a small candidate image.
+SubHeader.js: Contains four anchor tags (currently dummy links).
+Sidebar.js: Contains the sidebar menu with a logo, name, and five dummy menu sections.
+MainContent.js: Includes all parent and child components, making the dashboard look comprehensive.
 
-### `npm run eject`
+📂 Data Folder
+Location: src/data/
+Contents: Contains data.js which includes candidate data passed to each profile using props and iterated with map.
+Other Key Files
+App.js: The main file where all components are called to render the application.
+index.js: The entry point of the application.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+*How to Build and Run
+Let's get this awesome project up and running! Follow these simple steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+// Clone the Repository:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+git clone https://github.com/your-username/dash-app.git
+cd dash-app
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+//Install Dependencies:
 
-## Learn More
+npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+//Run the Application:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm start
 
-### Code Splitting
+//Run the Application:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Go to http://localhost:3000 to see the application in action.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Components Overview
+Here's a brief overview of how each component works and how they come together to create the dashboard:
 
-### Making a Progressive Web App
+CandProfile Components
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+CandidateDetails.js: Displays details like name, contact info, and application status.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Experience.js: Showcases the candidate's job experience and qualifications.
 
-### Deployment
+ProfileImage.js: Adds a profile picture to the candidate's profile.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Skills.js: Lists all the skills the candidate possesses with proficiency levels.
 
-### `npm run build` fails to minify
+CandidateProfile.js: Combines all the above components to display a comprehensive candidate profile.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Other Components
+
+
+Filter.js: Allows you to filter candidates based on various criteria.
+
+Header.js: Displays the main header with navigation options.
+
+Sidebar.js: Contains the navigation menu for easy access to different sections.
+
+MainContent.js: The main area where all the profiles and components are displayed.
+
+
+Data Handling
+
+data.js: Contains mock data for candidates, which is passed to components using props and rendered dynamically.
+
+Thank you
+
